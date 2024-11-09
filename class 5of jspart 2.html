@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p id="c"></p>
+    <script>
+ var fruits=['banana','orange','apple','mango']
+ document.write(fruits)
+ document.write("<br>")
+ document.write("<br>")
+ document.write(fruits[3])
+ document.write("<br>")
+ document.write(fruits[1])
+ document.write("<br>")
+ fruits.push("kiwi")
+ document.write(fruits)
+ document.write("<br>")
+ fruits.push("grapes")
+ document.write(fruits)
+ document.write("<br>")
+ fruits.push("watermelon,")
+ document.write(fruits)
+ document.write("<br>")
+  var fruits=fruits.join("+")
+ document.getElementById("c").innerHTML=fruits
+    </script>
+   
+</body>
+</html>
